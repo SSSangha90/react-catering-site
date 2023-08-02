@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import saag from "./images/saag-makhi.jpg";
 
 export const Section = styled.section`
   padding-top: 120px;
@@ -29,7 +28,6 @@ export const Section = styled.section`
   }
 
   .about-photo img {
-    background-image: url(${saag});
     opacity: 0.7;
     width: 100%;
     height: 300px;
