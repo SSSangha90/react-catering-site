@@ -37,10 +37,10 @@ const Landing = () => {
           <br />
           Modern Indian Catering
         </h1>
-        <a class="btn btn-full js--scroll-to-packages" href="#">
+        <a class="btn btn-full js--scroll-to-packages" href="#contact">
           Ready to eat
         </a>
-        <a class="btn btn-ghost js--scroll-to-about" href="#">
+        <a class="btn btn-ghost js--scroll-to-about" href="#about">
           Show me more
         </a>
       </div>
