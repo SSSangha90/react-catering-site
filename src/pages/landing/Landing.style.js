@@ -85,4 +85,13 @@ export const Header = styled.header`
   .sticky .main-nav {
     margin-top: 20px;
   }
+
+  .hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
 `;

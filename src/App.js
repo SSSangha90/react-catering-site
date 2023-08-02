@@ -2,59 +2,14 @@ import "./App.css";
 
 import Landing from "./pages/landing/Landing";
 import AboutSection from "./pages/aboutpage/About";
+import TabaSection from "./pages/tabapage/Taba";
 
 function App() {
   return (
     <body>
       <Landing />
       <AboutSection />
-      <section class="section-taba" id="taba">
-        <div class="row">
-          <h2>Desi Taba</h2>
-          <p class="brief-blurb">
-            Fresh Indian ingredients cooked with care. We provide an entrée of
-            starters, mains and desserts comprising of vegetarian food,
-            non-vegetarian cusine or a combination of both depending on your
-            requirements. Some of our popular dishes include: Desi Veggie
-            Quiche; Chicken Tikka Puff Pastries; Pepper Battered Fish Pakoreh;
-            Palak Paneer and Sultry Lamb Keema, to name a few.
-          </p>
-        </div>
-
-        <div class="about-meals-section js--wp-2">
-          <ul class="meals-about clearfix">
-            <li>
-              <figure class="about-photo">
-                <img
-                  src="img/Taba/saag-makhi-min.jpg"
-                  alt="Saag with Makhi Di Roti"
-                />
-              </figure>
-            </li>
-            <li>
-              <figure class="about-photo">
-                <img
-                  src="img/Taba/samosa-parcels-min.jpg"
-                  alt="Samosa Parcels"
-                />
-              </figure>
-            </li>
-            <li>
-              <figure class="about-photo">
-                <img src="img/Taba/pindee-sabzi-min.jpg" alt="Pindee Sabjee" />
-              </figure>
-            </li>
-            <li>
-              <figure class="about-photo">
-                <img
-                  src="img/Taba/butter-chicken-rice-min.jpg"
-                  alt="Butter Chicken with Rice"
-                />
-              </figure>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <TabaSection />
       <section class="packages-section js--section-packages" id="packages">
         <div class="row">
           <h2>Popular Packages</h2>
@@ -363,15 +318,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
-      <script src="vendors/js/jquery.waypoints.min.js"></script>
-      <script src="resources/js/gmaps.js"></script>
-      <script src="resources/js/script.js"></script>
-      <script src="http://maps.google.com/maps/api/js?key=AIzaSyDLvUGCDlJy1xOYJRq9Mi7LKxY1EOgxZXY&callback=initMap"></script>
     </body>
   );
 }
