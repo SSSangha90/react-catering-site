@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-indian-catering-site/static/css/main.073c9b0a.css",
+    "main.js": "/react-indian-catering-site/static/js/main.aefd736c.js",
+    "static/js/787.cede345e.chunk.js": "/react-indian-catering-site/static/js/787.cede345e.chunk.js",
+    "static/media/varied-dishes.jpg": "/react-indian-catering-site/static/media/varied-dishes.018aa1dde29998ae0b17.jpg",
+    "static/media/saag-makhi.jpg": "/react-indian-catering-site/static/media/saag-makhi.a2324264956367e783c0.jpg",
+    "index.html": "/react-indian-catering-site/index.html",
+    "main.073c9b0a.css.map": "/react-indian-catering-site/static/css/main.073c9b0a.css.map",
+    "main.aefd736c.js.map": "/react-indian-catering-site/static/js/main.aefd736c.js.map",
+    "787.cede345e.chunk.js.map": "/react-indian-catering-site/static/js/787.cede345e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.aefd736c.js"
+  ]
+}
