@@ -1,62 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Landing from "./pages/landing/Landing";
 
 function App() {
   return (
     <body>
-      <header>
-        <nav>
-          <div class="row">
-            <img
-              src="img/Taba/original-bg.jpg"
-              alt="Lucky's Taba logo"
-              class="sticky-logo"
-            />
-            <ul class="main-nav js--main-nav">
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#taba">Taba</a>
-              </li>
-              <li>
-                <a href="#packages">Packages</a>
-              </li>
-              <li>
-                <a href="#cakes">Cakes</a>
-              </li>
-              <li>
-                <a href="#reviews">Reviews</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-              <li>07940237669</li>
-            </ul>
-            <a class="mobile-nav-icon js--nav-icon">
-              <i class="ion-navicon-round"></i>
-            </a>
-          </div>
-        </nav>
-        <div class="hero-text-box">
-          <h1>
-            Lucky's Taba
-            <br />
-            Modern Indian Catering
-          </h1>
-          <a class="btn btn-full js--scroll-to-packages" href="#">
-            Ready to eat
-          </a>
-          <a class="btn btn-ghost js--scroll-to-about" href="#">
-            Show me more
-          </a>
-        </div>
-      </header>
+      <Landing />
       <section class="section-about js--section-about" id="about">
         <div class="row">
           <h2>No job is too big or too small</h2>
           <p class="brief-blurb">
-            Lucky's catering provides a modern take on traditional indian
+            Desi taba catering provides a modern take on traditional indian
             cuisine for all occasions. We use the freshest ingredients and cater
             to our customer's requirements and specific taste. Our menu's
             include vegetarian, non-vegetarian and mixed options. We ensure we
@@ -69,7 +22,6 @@ function App() {
             <a href="content/LuckysTabaMenu.pdf">View Menu.</a>
           </p>
         </div>
-
         <div class="about-meals-section js--wp-1">
           <ul class="meals-about clearfix">
             <li>
@@ -106,7 +58,7 @@ function App() {
       </section>
       <section class="section-taba" id="taba">
         <div class="row">
-          <h2>Lucky's Taba</h2>
+          <h2>Desi Taba</h2>
           <p class="brief-blurb">
             Fresh Indian ingredients cooked with care. We provide an entrée of
             starters, mains and desserts comprising of vegetarian food,
@@ -247,7 +199,7 @@ function App() {
       </section>
       <section class="section-cakes" id="cakes">
         <div class="row">
-          <h2>Lucky's Cakes</h2>
+          <h2>Desi Taba's Cakes</h2>
           <p class="brief-blurb">
             As well as our Indian Cuisine, our cakes have been a hit for family
             functions, including birthday parties, weddings and baby-showers. We
@@ -315,14 +267,14 @@ function App() {
                 </li>
                 <li class="anim2">
                   <div class="quote">
-                    High standards as usual delivered by Lucky's Taba, try their
+                    High standards as usual delivered by Desi Taba, try their
                     oreo cookie milkshakes!
                   </div>
                   <div class="source">- G. Rana</div>
                 </li>
                 <li class="anim3">
                   <div class="quote">
-                    Lucky's provided the cup-cakes at my baby-shower and there
+                    Desi Taba provided the cup-cakes at my baby-shower and there
                     weren't a single one left. A real treat for the occasion.
                   </div>
                   <div class="source">- S. Lal</div>
@@ -336,7 +288,7 @@ function App() {
                 </li>
                 <li class="anim5">
                   <div class="quote">
-                    Lucky's Taba delivered the catering for our Halloween party.
+                    Desi Taba delivered the catering for our Halloween party.
                     The preparation was great, the themed food went down well
                     and the lamb was delicious!
                   </div>
